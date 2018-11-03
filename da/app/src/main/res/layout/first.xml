@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@mipmap/one">
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答题小游戏"
+        android:textColor="@color/pink_pressed"
+        android:textSize="@dimen/dp_35"/>
+    <Button
+        android:id="@+id/jinru"
+        android:layout_marginTop="15dp"
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="wrap_content"
+        android:text="进入游戏"
+        android:textSize="@dimen/dp_20"
+        android:background="@drawable/border"
+ />
+    <Button
+        android:id="@+id/guize"
+        android:layout_width="@dimen/dp_200"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_height="wrap_content"
+        android:text="游戏规则"
+        android:background="@drawable/border"
+        android:textSize="@dimen/dp_20"/>
+ <Button
+     android:id="@+id/tuic"
+     android:layout_width="@dimen/dp_200"
+     android:layout_marginTop="@dimen/dp_30"
+     android:layout_height="wrap_content"
+     android:text="退出"
+     android:background="@drawable/border"
+     android:textSize="@dimen/dp_20"/>
+</LinearLayout>

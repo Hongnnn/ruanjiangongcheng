@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/three">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="答题规则"
+    android:textSize="35dp"
+
+    android:layout_marginTop="72dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  输入用户名和用户数进行答题，若答题时间超过120s则算答题结束。"
+        android:textSize="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/textView2"
+        android:id="@+id/textView3" />
+   <Button
+       android:id="@+id/ok"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="确定"
+       android:gravity="center"
+
+       android:background="@drawable/btn_orange_selector"
+       android:textColor="@android:color/white"
+       android:layout_below="@+id/textView3"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="26dp" />
+</RelativeLayout>

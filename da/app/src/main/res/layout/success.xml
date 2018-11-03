@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@mipmap/seven">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:text="  答题结束"
+    android:textSize="@dimen/dp_50"/>
+    <TextView
+        android:id="@+id/kehu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hh,您的答题情况如下："
+        android:textSize="@dimen/dp_25"/>
+    
+    <TextView
+      android:id="@+id/datisum"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="总答题：2"
+    android:textSize="@dimen/dp_20"/>
+    <TextView
+        android:id="@+id/dadui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答对：1"
+        android:textSize="@dimen/dp_20"/>
+    <TextView
+        android:id="@+id/dacuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答错：1"
+        android:textSize="@dimen/dp_20"/>
+    <TextView
+        android:id="@+id/shijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用时：10"
+        android:textSize="@dimen/dp_20"/>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@mipmap/one"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:layout_marginBottom="59dp"
+        android:layout_above="@+id/num_btn"
+        android:layout_alignLeft="@+id/et_num"
+        android:layout_alignStart="@+id/et_num"/>
+      <EditText
+          android:id="@+id/et_num"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:hint="请输入题目数（1-5）"
+
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+     
+          android:layout_marginTop="214dp"/>
+        <Button
+            android:id="@+id/num_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="确认"
+            android:layout_weight="1"
+            android:layout_below="@+id/et_num"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+            android:layout_marginTop="59dp"/>
+
+</RelativeLayout>
